@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "833554001241",
+    "firebase_url": "https://text-recogniser-ca2e6.firebaseio.com",
+    "project_id": "text-recogniser-ca2e6",
+    "storage_bucket": "text-recogniser-ca2e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:833554001241:android:b04bdba0ca666d99d6b048",
+        "android_client_info": {
+          "package_name": "com.sleepingpandaaa.textrecogniser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "833554001241-9ugcbuh1d8cre9cdh3ccolb1sd3vjnik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sleepingpandaaa.textrecogniser",
+            "certificate_hash": "071f1e475c318ae35778e08e0ac515258264422b"
+          }
+        },
+        {
+          "client_id": "833554001241-5nbmsrr1gjkheeaolun5n9vt39qdmhok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZcmA9FRRZ2jbn4n4TEuqPTkYXxcCT8gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "833554001241-5nbmsrr1gjkheeaolun5n9vt39qdmhok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

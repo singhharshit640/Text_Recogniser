@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivPhoto"
+        android:src="@drawable/camera"
+        android:layout_width="370dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="350dp"/>
+
+    <TextView
+        android:id="@+id/tvText"
+        android:hint="Text will display here"
+        android:textSize="22sp"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivPhoto"/>
+
+    <Button
+        android:id="@+id/btnImage"
+        android:text="Capture Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvText"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"
+        android:textColor="#fff"
+        android:background="@drawable/custom_button"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnDetect"
+        android:text="Detect Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnImage"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        android:textColor="#fff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="5dp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>
